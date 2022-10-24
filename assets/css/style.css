@@ -956,10 +956,6 @@ a:hover {
   background-color: #fff;
 }
 
-.work-box:hover img {
-  transform: scale(1.3);
-}
-
 .work-img {
   display: block;
   overflow: hidden;
