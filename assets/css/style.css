@@ -864,7 +864,8 @@ a:hover {
 --------------------------------------------------------------*/
 
 .company-img {
-  width: 30%;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
 .service-box {
