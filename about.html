@@ -39,21 +39,27 @@
 
   <body>
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top">
+    <header id="header-alt" class="fixed-top" style="background-color: #000000">
       <div class="container d-flex align-items-center justify-content-between">
-        <h1 class="logo"><a href="index">Home</a></h1>
+        <h1 class="logo"><a href="index">Projects</a></h1>
         <!-- Uncomment below  to use an image logo -->
         <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li>
+              <a class="nav-link" href="index">Home</a>
+            </li>
             <li><a class="nav-link scrollto" href="#about">About</a></li>
-            <li><a class="nav-link" href="projects">Projects</a></li>
+            <li>
+              <a class="nav-link active" href="projects">Projects</a>
+            </li>
             <li>
               <a class="nav-link" href="work-history">Work History</a>
             </li>
-            <li><a class="nav-link" href="education">Education</a></li>
+            <li>
+              <a class="nav-link" href="education">Education</a>
+            </li>
             <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
             <li>
               <a href="https://github.com/jorgoose"
@@ -68,31 +74,6 @@
     </header>
     <!-- End Header -->
 
-    <!-- ======= Hero Section ======= -->
-    <div
-      id="hero"
-      class="hero route bg-image"
-      style="
-        background-image: url(https://miro.medium.com/max/1400/0*RFI9ibT1varnCNOv);
-      "
-    >
-      <!-- Add "style="background-image: url(assets/img/hero-bg.jpg)" to the above to add site-width-spanning background image"-->
-      <div class="overlay-itro"></div>
-      <div class="hero-content display-table">
-        <div class="table-cell">
-          <div class="container">
-            <!--<p class="display-6 color-d">Hello, world!</p>-->
-            <h1 class="hero-title mb-4">Logan Jorgensen</h1>
-            <p class="hero-subtitle">
-              <span class="typed" data-typed-items="Developer, Student"></span>
-            </p>
-            <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Hero Section -->
-
     <main id="main">
       <!-- ======= About Section ======= -->
       <section id="about" class="about-mf sect-pt4 route">
@@ -103,15 +84,36 @@
                 <div class="row">
                   <div class="col-md-6">
                     <div class="row">
-                      <div class="col-sm-6 col-md-5 center-block">
+                      <div class="col-sm-6 col-md-5">
                         <div class="about-img">
                           <!-- TODO: ADD PERSONAL PROFILE PICTURE -->
                           <img
                             src="https://media-exp1.licdn.com/dms/image/C4E03AQHGnrwjxjpGZA/profile-displayphoto-shrink_400_400/0/1644538670285?e=1671667200&v=beta&t=k6atcRz-j-dwV5YlcfFI0m76o_m02W1NhStkzNLZRJM"
-                            class="img-fluid rounded-circle border border-primary border-5"
-                            style="border-width: 4px !important"
+                            class="img-fluid rounded-circle border border-primary border-4"
                             alt="Placeholder Profile Image"
                           />
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-7">
+                        <div class="about-info">
+                          <p>
+                            <span class="title-s">Email: </span>
+                            <span>contact.jorgensen@gmail.com</span>
+                          </p>
+                          <p>
+                            <span class="title-s">Phone: </span>
+                            <span>(515) 460-3035</span>
+                          </p>
+                          <p>
+                            <span class="title-s">GitHub: </span>
+                            <span>https://www.github.com/jorgoose/</span>
+                          </p>
+                          <p>
+                            <span class="title-s">LinkedIn: </span>
+                            <span
+                              >https://www.linkedin.com/in/logan-jorgensen/</span
+                            >
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -179,303 +181,11 @@
       </section>
       <!-- End About Section -->
 
-      <!-- ======= Counter Section ======= -->
-      <!-- <div
-        class="section-counter paralax-mf bg-image"
-        style="background-image: url(assets/img/counters-bg.jpg)"
-      >
-        <div class="overlay-mf"></div>
-        <div class="container position-relative">
-          <div class="row">
-            <div class="col-sm-3 col-lg-3">
-              <div class="counter-box counter-box pt-4 pt-md-0">
-                <div class="counter-ico">
-                  <span class="ico-circle"><i class="bi bi-check"></i></span>
-                </div>
-                <div class="counter-num">
-                  <p
-                    data-purecounter-start="0"
-                    data-purecounter-end="450"
-                    data-purecounter-duration="1"
-                    class="counter purecounter"
-                  ></p>
-                  <span class="counter-text">WORKS COMPLETED</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3 col-lg-3">
-              <div class="counter-box pt-4 pt-md-0">
-                <div class="counter-ico">
-                  <span class="ico-circle"
-                    ><i class="bi bi-journal-richtext"></i
-                  ></span>
-                </div>
-                <div class="counter-num">
-                  <p
-                    data-purecounter-start="0"
-                    data-purecounter-end="25"
-                    data-purecounter-duration="1"
-                    class="counter purecounter"
-                  ></p>
-                  <span class="counter-text">YEARS OF EXPERIENCE</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3 col-lg-3">
-              <div class="counter-box pt-4 pt-md-0">
-                <div class="counter-ico">
-                  <span class="ico-circle"><i class="bi bi-people"></i></span>
-                </div>
-                <div class="counter-num">
-                  <p
-                    data-purecounter-start="0"
-                    data-purecounter-end="550"
-                    data-purecounter-duration="1"
-                    class="counter purecounter"
-                  ></p>
-                  <span class="counter-text">TOTAL CLIENTS</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3 col-lg-3">
-              <div class="counter-box pt-4 pt-md-0">
-                <div class="counter-ico">
-                  <span class="ico-circle"><i class="bi bi-award"></i></span>
-                </div>
-                <div class="counter-num">
-                  <p
-                    data-purecounter-start="0"
-                    data-purecounter-end="48"
-                    data-purecounter-duration="1"
-                    class="counter purecounter"
-                  ></p>
-                  <span class="counter-text">AWARD WON</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <!-- End Counter Section -->
-
-      <!-- TODO: CHANGE TO PROJECTS SECTION -->
-
-      <!-- End Services Section -->
-
-      <!-- ======= Testimonials Section ======= -->
-      <div
-        class="testimonials paralax-mf bg-image"
-        style="
-          background-image: url(https://i0.wp.com/www.franksworld.com/wp-content/uploads/2018/09/nnet.jpg?fit=1500%2C670&ssl=1);
-        "
-      >
-        <div class="overlay-mf"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div
-                class="testimonials-slider swiper"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <div class="testimonial-box">
-                      <div class="author-test">
-                        <img
-                          src="assets/img/testimonial-2.jpg"
-                          alt=""
-                          class="rounded-circle b-shadow-a"
-                        />
-                        <span class="author">Joe Mama</span>
-                      </div>
-                      <div class="content-test">
-                        <p class="description lead">
-                          Logan is really good at coding. Sadly he is not as
-                          good at writing about himself. He is a really good guy
-                          though.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End testimonial item -->
-
-                  <div class="swiper-slide">
-                    <div class="testimonial-box">
-                      <div class="author-test">
-                        <img
-                          src="assets/img/testimonial-4.jpg"
-                          alt=""
-                          class="rounded-circle b-shadow-a"
-                        />
-                        <span class="author">Barb Dwyer</span>
-                      </div>
-                      <div class="content-test">
-                        <p class="description lead">
-                          How much wood could a woodchuck chuck if he had a
-                          trebuchet
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End testimonial item -->
-                </div>
-                <div class="swiper-pagination"></div>
-              </div>
-
-              <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
-          
-        </div> -->
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End Testimonials Section -->
-
-      <!-- ======= Blog Section ======= -->
-      <!-- <section id="courses" class="services-mf pt-5 route">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="title-box text-center">
-                <h3 class="title-a">Blog</h3>
-                <p class="subtitle-a">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                </p>
-                <div class="line-mf"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="card card-blog">
-                <div class="card-img">
-                  <a href="blog-single.html"
-                    ><img src="assets/img/post-1.jpg" alt="" class="img-fluid"
-                  /></a>
-                </div>
-                <div class="card-body">
-                  <div class="card-category-box">
-                    <div class="card-category">
-                      <h6 class="category">Travel</h6>
-                    </div>
-                  </div>
-                  <h3 class="card-title">
-                    <a href="blog-single.html">See more ideas about Travel</a>
-                  </h3>
-                  <p class="card-description">
-                    Proin eget tortor risus. Pellentesque in ipsum id orci porta
-                    dapibus. Praesent sapien massa, convallis a pellentesque
-                    nec, egestas non nisi.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <div class="post-author">
-                    <a href="#">
-                      <img
-                        src="assets/img/testimonial-2.jpg"
-                        alt=""
-                        class="avatar rounded-circle"
-                      />
-                      <span class="author">Morgan Freeman</span>
-                    </a>
-                  </div>
-                  <div class="post-date">
-                    <span class="bi bi-clock"></span> 10 min
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card card-blog">
-                <div class="card-img">
-                  <a href="blog-single.html"
-                    ><img src="assets/img/post-2.jpg" alt="" class="img-fluid"
-                  /></a>
-                </div>
-                <div class="card-body">
-                  <div class="card-category-box">
-                    <div class="card-category">
-                      <h6 class="category">Web Design</h6>
-                    </div>
-                  </div>
-                  <h3 class="card-title">
-                    <a href="blog-single.html">See more ideas about Travel</a>
-                  </h3>
-                  <p class="card-description">
-                    Proin eget tortor risus. Pellentesque in ipsum id orci porta
-                    dapibus. Praesent sapien massa, convallis a pellentesque
-                    nec, egestas non nisi.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <div class="post-author">
-                    <a href="#">
-                      <img
-                        src="assets/img/testimonial-2.jpg"
-                        alt=""
-                        class="avatar rounded-circle"
-                      />
-                      <span class="author">Morgan Freeman</span>
-                    </a>
-                  </div>
-                  <div class="post-date">
-                    <span class="bi bi-clock"></span> 10 min
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card card-blog">
-                <div class="card-img">
-                  <a href="blog-single.html"
-                    ><img src="assets/img/post-3.jpg" alt="" class="img-fluid"
-                  /></a>
-                </div>
-                <div class="card-body">
-                  <div class="card-category-box">
-                    <div class="card-category">
-                      <h6 class="category">Web Design</h6>
-                    </div>
-                  </div>
-                  <h3 class="card-title">
-                    <a href="blog-single.html">See more ideas about Travel</a>
-                  </h3>
-                  <p class="card-description">
-                    Proin eget tortor risus. Pellentesque in ipsum id orci porta
-                    dapibus. Praesent sapien massa, convallis a pellentesque
-                    nec, egestas non nisi.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <div class="post-author">
-                    <a href="#">
-                      <img
-                        src="assets/img/testimonial-2.jpg"
-                        alt=""
-                        class="avatar rounded-circle"
-                      />
-                      <span class="author">Morgan Freeman</span>
-                    </a>
-                  </div>
-                  <div class="post-date">
-                    <span class="bi bi-clock"></span> 10 min
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
-      <!-- End Blog Section -->
-
       <!-- ======= Contact Section ======= -->
       <section
         id="contact"
         class="paralax-mf footer-paralax bg-image sect-mt4 route"
-        style="
-          background-image: url(https://i0.wp.com/www.franksworld.com/wp-content/uploads/2018/09/nnet.jpg?fit=1500%2C670&ssl=1);
-        "
+        style="background-image: url(assets/img/overlay-bg.jpg)"
       >
         <div class="overlay-mf"></div>
         <div class="container">
