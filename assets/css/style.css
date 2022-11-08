@@ -1026,7 +1026,9 @@ a:hover {
 
 .work-img {
   display: block;
+  text-align: center;
   overflow: hidden;
+  box-shadow: 0 1px 15px 3px grey;
 }
 
 .work-content {
@@ -1129,6 +1131,10 @@ a:hover {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+
+.img-fluid {
+  box-shadow: 5px 1 30px rgba(78, 78, 78, 0.08);
 }
 
 /*--------------------------------------------------------------
