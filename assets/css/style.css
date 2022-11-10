@@ -706,18 +706,16 @@ a:hover {
 
 .navbar-mobile {
   position: fixed;
-  overflow: hidden;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(78, 78, 78, 0.9);
+  background: black;
   transition: 0.3s;
   z-index: 999;
 }
 
 .navbar-mobile .mobile-nav-toggle {
-  position: absolute;
   top: 15px;
   right: 15px;
 }
@@ -726,9 +724,7 @@ a:hover {
   display: block;
   position: absolute;
   top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
+
   padding: 10px 0;
   background-color: #fff;
   overflow-y: auto;
